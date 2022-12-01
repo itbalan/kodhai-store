@@ -3,7 +3,7 @@
 import React from 'react';
 // eslint-disable-next-line @next/next/no-document-import-in-page
 import Document, { Head, Html, Main, NextScript } from 'next/document';
-import createEmotionServer from '@emotion/server/types/create-instance';
+import createEmotionServer from '@emotion/server/create-instance';
 import createCache from '@emotion/cache';
 import { style } from '@mui/system';
 
